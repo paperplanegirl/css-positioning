@@ -4,8 +4,107 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: Arial;
+  font-size: 13px;
   margin: 0;
+}
+
+.bluebox {
+  height: 260px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4b7eac), to(#3b6488));
+}
+
+.leftbox {
+  float: left;
+  padding-left: 120px;
+  padding-right:40px;
+}
+.rightbox {
+  width: 500px;
+  height: 100px;
+  float: right;
+  background-image: url("../img/frame.png");
+  margin-right: 100px;
+  margin-top: -20px;
+
+}
+
+.rightbox.after {
+  clear: both;
+}
+
+.logo {
+  float: left;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-left: 40px;
+  color: #1c5380;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+
+
+#container {
+  margin-top: -185px;
+  margin-left: 70px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.loginbox {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4b7eac), to(#3b6488));
+  width: 90px;
+  height: 40px;
+  display: inline-block;
+}
+
+img {
+  display: inline-block;
+
+}
+
+.icon1 {
+  display: inline-block;
+  margin: 25px 12px 20px 40px;
+}
+
+.icon2 {
+  display: inline-block;
+}
+
+p {
+  margin-left: 40px;
+  padding: 5px;
+  line-height: 15pt;
+  letter-spacing: 1px;
+}
+
+.footer {
+  color: #4b7eac;
+  font-weight: bold;
+  display: inline-block;
+  float: left;
+  margin-top: 350px;
+  margin-left: -230px;
+  margin-bottom: 100px;
+}
+
+a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ig {
+  color: grey;
 }
